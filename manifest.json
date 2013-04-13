@@ -18,6 +18,8 @@
     "default_popup": "popup.html"
   },
 
+  "options_page": "popup.html",
+
   "content_scripts": [
     {
       "matches": [
