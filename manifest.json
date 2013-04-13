@@ -6,7 +6,6 @@
   "version": "0.5",
 
   "permissions": [
-    "tabs"
   ],
   "background": {
     "scripts": ["event.js"],
