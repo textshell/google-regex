@@ -76,7 +76,7 @@ setInterval(function() {
 		if (debug) console.log("rules not yet loaded");
 		return;
 	}
-	var all = document.querySelectorAll("a.l");
+	var all = document.querySelectorAll("h3.r > a");
 	for (var i=0; i < all.length; i++) {
 		var resultAnchor = all[i];
         if (resultAnchor.getAttribute("data-" + NS + "-gen") == regexGeneration) {
