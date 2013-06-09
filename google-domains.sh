@@ -1,5 +1,6 @@
 # based on http://en.wikipedia.org/wiki/List_of_Google_domains
 cat <<EOF | while read i ; do echo -e '            "'$i'/*",'; echo -e '            "'$i'/*",' | sed -e "s/http/https/"; done
+http://ipv6.google.com
 http://www.google.com
 http://www.google.ac
 http://www.google.ad

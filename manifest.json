@@ -22,6 +22,8 @@
   "content_scripts": [
     {
       "matches": [
+            "http://ipv6.google.com/*",
+            "https://ipv6.google.com/*",
             "http://www.google.com/*",
             "https://www.google.com/*",
             "http://www.google.ac/*",
