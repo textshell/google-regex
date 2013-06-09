@@ -3,7 +3,7 @@
 
   "name": "Google regex",
   "description": "Filter search results by site.",
-  "version": "0.5",
+  "version": "0.5.1",
 
   "permissions": [
   ],
